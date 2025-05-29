@@ -22,10 +22,10 @@ func SetupRouter() http.Handler {
 
 	// routes
 	r.Get("/media", handlers.GetAllMedia)
-	// r.Get("/media/{id}", handlers.GetMediaByID)
-	// r.Post("/media", handlers.CreateMedia)
-	// r.Put("/media/{id}", handlers.UpdateMedia)
-	// r.Delete("/media/{id}", handlers.DeleteMedia)
+	r.Get("/media/{id}", handlers.GetMediaByID)
+	r.Post("/media", handlers.CreateMedia)
+	r.Put("/media/{id}", handlers.UpdateMedia)
+	r.Delete("/media/{id}", handlers.DeleteMedia)
 	// Maps endpoints like /media to handler functions in the handlers package (which we’ll build next).
 
 	return r
