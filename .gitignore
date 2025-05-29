@@ -1,0 +1,22 @@
+# artifacts
+/bin/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Local tools
+.env
+*.log
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# OS 
+.DS_Store
+Thumbs.db
