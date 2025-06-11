@@ -54,5 +54,14 @@ streamflix-api/
 
 ## Notes
 
+
+## Author
+
+- Connor Wotkowicz
+- - [GitHub](https://github.com/connorwotkowicz)
+- - [LinkedIn](https://www.linkedin.com/in/wotkowicz)
+
+
+
 This project is inspired by the backend structure of streaming platforms. It is meant to demonstrate skills relevant to those particular tech environments.
 
